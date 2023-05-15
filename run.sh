@@ -1,0 +1,1 @@
+java -cp src:lib/gson-2.10.1.jar:lib/mongodb-driver-sync-4.9.1.jar:lib/mongodb-driver-core-4.9.1.jar:lib/bson-4.9.1.jar:lib/slf4j-api-2.0.7.jar:lib/slf4j-simple-2.0.7.jar src/Store.java

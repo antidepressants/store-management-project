@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="src" path="src">
+    <classpathentry exported="true" kind="lib" path="lib/gson-2.10.1.jar">
+    <classpathentry exported="true" kind="lib" path="lib/mongodb-driver-sync-4.9.1.jar">
+    <classpathentry exported="true" kind="lib" path="lib/mongodb-driver-core-4.9.1.jar">
+    <classpathentry exported="true" kind="lib" path="lib/bson-4.9.1.jar">
+    <classpathentry exported="true" kind="lib" path="lib/slf4j-api-2.0.7.jar">
+    <classpathentry exported="true" kind="lib" path="lib/slf4j-simple-2.0.7.jar">
+</classpath>

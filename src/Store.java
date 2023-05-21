@@ -101,7 +101,9 @@ public class Store implements UI, MongoConnection {
                 tempItems.forEach(item -> items.add(item));
                 reader.close();
             } catch (Exception e) {
-                System.out.println("Failed to read from file " + classMap.get(className) + ".json");
+                System.out
+                        .println("Failed to read from file " + databasePath + "/" + classMap.get(className) + ".json");
+                selectDB(scanner);
             }
         }
     }

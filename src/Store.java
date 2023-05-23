@@ -3,16 +3,17 @@ import java.io.Writer;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.stream.Collectors;
-import org.bson.Document;
 import java.util.HashMap;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
+import org.bson.Document;
+
+import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.mongodb.MongoException;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
-import com.google.gson.*;
 
 public class Store implements UI, MongoConnection {
     ArrayList<Item> items = new ArrayList<Item>();
